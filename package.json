@@ -1,0 +1,25 @@
+{
+  "name": "scsslint",
+  "version": "0.1.0",
+  "description": "Lints a scss file on Travis",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "test": "scss-lint *.scss"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pdehaan/scsslint.git"
+  },
+  "keywords": [
+    "scss",
+    "scss-lint",
+    "css"
+  ],
+  "author": "Peter deHaan <peter@deseloper.com> (http://nodeexamples.com/)",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/pdehaan/scsslint/issues"
+  },
+  "homepage": "https://github.com/pdehaan/scsslint"
+}

@@ -1,0 +1,8 @@
+.foo {
+    font-family:Arial;
+    background-color: rgba(#000, 0.3);
+    color: red;
+    & bar {
+        font-size: 1.2em;
+    }
+}
